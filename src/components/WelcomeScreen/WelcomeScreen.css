@@ -1,0 +1,16 @@
+body {
+	background-image: url("../../assets/images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px 8%;
+}
+
+.pageHeader {
+	color: green;
+	font-size: 100px;
+	margin: 10px;
+}
+
+.pageText {
+	color: white;
+}

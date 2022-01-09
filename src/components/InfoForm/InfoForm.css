@@ -1,0 +1,13 @@
+.InfoForm {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+    padding: 10px;
+    max-width: 400px;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(100, 125, 100, 0.95);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}

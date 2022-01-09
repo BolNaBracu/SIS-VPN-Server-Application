@@ -1,0 +1,37 @@
+.LoginForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    bottom: 0;
+    margin: 0 10%;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(100, 125, 100, 0.95);
+    border-radius: 10px;
+}
+
+.LoginForm_Message {
+    color: lightgreen;
+}
+
+.LoginForm_InputText {
+    font-size: 20px;
+    font-style: italic;
+    color: darkgreen;
+}
+
+.LoginForm_Button {
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.LoginForm_Button:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
