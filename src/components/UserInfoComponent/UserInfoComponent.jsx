@@ -12,7 +12,7 @@ const UserInfoComponent = ({ userInfo }) => {
 			firstLogin: `${firstDate.getDate()}. ${firstDate.getUTCMonth() + 1}. ${firstDate.getFullYear()}`,
 			lastLogin: `${lastDate.getDate()}. ${lastDate.getUTCMonth() + 1}. ${lastDate.getFullYear()}`,
 		});
-	}, [dates, userInfo.firstLogin, userInfo.lastLogin]);
+	}, [userInfo.firstLogin]);
 
 	return (
 		<div className='userInfoArea'>

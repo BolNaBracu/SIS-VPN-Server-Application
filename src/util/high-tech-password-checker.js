@@ -69,6 +69,7 @@ const data = [
 
 const checkUserExists = ({ username, password }) => {
 	const userData = data.find((element) => username === element.username && password === element.password);
+	if (userData === undefined) return null;
 	userData.diary.lastEntry =
 		'Ovo je moj zadnji unos u dnevnik. SIS-VPN aplikacija je dovršena.<newline/>Tajni ključ aplikacije je:<newline/>5u8x!A%D*G-KaPdSgVkYp3s6v9y$B?E(H+MbQeThWmZq4t7w!z%C*F)J@NcRfUjX.<newline/>Ove informacije su tajne te su toga pohranjene ovdje! Opasno bi bilo kada bi se još netko dočepao ovih informacija. Na svu sreću, aplikacija je sada implementirana pa se oko toga ne treba brinuti.';
 	return userData;

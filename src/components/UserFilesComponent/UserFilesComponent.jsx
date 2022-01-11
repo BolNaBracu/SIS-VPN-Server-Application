@@ -9,7 +9,7 @@ const UserFilesComponent = ({ userInfo }) => {
 	};
 
 	return (
-		<div className='confidentalArea'>
+		<div className='ConfidentalArea'>
 			<h1>Your SIS-VPN protected data</h1>
 			<button className='Journal_Button' onClick={diary}>
 				{isDiaryOpened ? 'Close Journal' : 'Open Journal'}

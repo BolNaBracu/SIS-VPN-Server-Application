@@ -19,8 +19,8 @@ const WelcomeScreen = () => {
 
 	return (
 		<>
-			<h1 className='pageHeader'>SIS VPN</h1>
-			<h2 className='pageText'>
+			<h1 className='PageHeader'>SIS VPN</h1>
+			<h2 className='PageText'>
 				If you're seeing this message, it means you've successfully connected to SIS-VPN Service.
 			</h2>
 			{currentInfo && <InfoForm infoObjArg={currentInfo} />}

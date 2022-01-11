@@ -5,12 +5,12 @@ body {
 	background-position: 0px 8%;
 }
 
-.pageHeader {
+.PageHeader {
 	color: green;
 	font-size: 100px;
 	margin: 10px;
 }
 
-.pageText {
+.PageText {
 	color: white;
 }
