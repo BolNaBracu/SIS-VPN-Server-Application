@@ -1,0 +1,12 @@
+.userInfoArea {
+    margin: 32px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    max-width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: rgb(221, 255, 221);
+    font-size: large;
+}
